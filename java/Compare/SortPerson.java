@@ -8,17 +8,12 @@
 //      3. Add the command line arguments in the "Program arguments:" text area
 //      4. Press "Apply"
 
-
-
-
 import	java.util.*;
-
 
 public class SortPerson
 {
 	private	ArrayList<Person>	people = new ArrayList<Person>();
-
-
+	
 	public SortPerson()
 	{
 		people.add(new Person(301, "Albert Einstein", "123 My Street", "Your Town", "UT", "123-4567"));
@@ -29,7 +24,6 @@ public class SortPerson
 		people.add(new Person(403, "Wilson", "1492 USA Way", "Morristown", "NJ", "345-8765"));
 		people.add(new Person(4567, "John Smith", "417 El Toro", "Irvine", "CA", "869-3482"));
 	}
-
 
 	public void sortByName(String name)
 	{
@@ -56,7 +50,6 @@ public class SortPerson
 		System.out.println();				// print a blank line
 	}
 
-
 	public void sortByID(int id)
 	{
 		// make a int-based compartor here
@@ -67,7 +60,6 @@ public class SortPerson
 
 		for (Person p : people)				// print sorted list
 			System.out.println(p);
-
 
 		System.out.println("\nSearching for:" + id);
 
@@ -83,7 +75,6 @@ public class SortPerson
 			System.out.println(id + " was not found");
 	}
 
-
 	public static void main(String args[])
 	{
 		SortPerson	sp = new SortPerson();
@@ -91,4 +82,3 @@ public class SortPerson
 		sp.sortByID(Integer.parseInt(args[1]));
 	}
 }
-
