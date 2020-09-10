@@ -6,27 +6,32 @@ _________
 
 1. Two Sum
 
-     -C#, C++
+     C#, C++
      
-     -arrays
+     arrays
 2. Add Two
 
-     -C#
+     C#
      
-     -linked lists
-     
+     linked lists
 3. Remove Duplicates from Sorted Array
-     -C++
-     -arrays, in place solution
+     
+     C++
+     
+     arrays, in place solution
    
 4. Rotate Image
 
    C#
    
    2D matrix rotation
-   
 5. Max sub array size
 
    C++
    
    arrays
+6. Number of Islands
+
+   C++
+   
+   2D array DFS solution
