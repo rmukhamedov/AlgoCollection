@@ -13,8 +13,7 @@ import	java.util.*;
 public class SortPerson
 {
 	private	ArrayList<Person>	people = new ArrayList<Person>();
-
-
+	
 	public SortPerson()
 	{
 		people.add(new Person(301, "Albert Einstein", "123 My Street", "Your Town", "UT", "123-4567"));
