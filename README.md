@@ -39,4 +39,4 @@ _________
 
    C#
    
-   solution without merging arrays
+   log time solution without merging arrays
