@@ -35,3 +35,8 @@ _________
    C++
    
    2D array DFS solution
+7. Find median of two sorted arrays
+
+   C#
+   
+   solution without merging arrays
