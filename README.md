@@ -47,7 +47,7 @@ _________
    
    recursive, linear time
 
-9. Inorder and Postorder binary tree traversal 
+9. Preorder, Inorder, and Postorder binary tree traversal 
 
    C#
    
