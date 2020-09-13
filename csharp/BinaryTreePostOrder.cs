@@ -19,12 +19,11 @@ public class Solution {
             return result;
         }
         
-        bool notLast = true;
         var nodeStack = new Stack<TreeNode>();
         
         nodeStack.Push(root);
         
-        while (notLast)
+        while (nodeStack.Count > 0)
         {
             var topNode = nodeStack.Peek();
             
@@ -43,8 +42,6 @@ public class Solution {
                 result.Add(topNode.val);
                 nodeStack.Pop();
             }
-            
-            notLast = nodeStack.Count > 0;
         }
         
         return result;
