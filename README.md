@@ -40,3 +40,16 @@ _________
    C#
    
    log time solution without merging arrays
+
+8. Construct binary tree from preorder and inorder traversal arrays
+
+   C#
+   
+   recursive, linear time
+
+9. Inorder and Postorder binary tree traversal 
+
+   C#
+   
+   no recursive calls, iterative traversal using stack data-structure
+
